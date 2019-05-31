@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import StarWarsCharacter from './components/StarWarsCharacter';
 import './App.css';
+import { StaticCharacters } from './components/StaticCharacters';
+
 
 class App extends Component {
   constructor() {
@@ -13,6 +15,7 @@ class App extends Component {
       about: '',
     };
   }
+  
 
   handleChanges = event => {
     console.log(event.target.name);
