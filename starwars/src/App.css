@@ -26,6 +26,7 @@ div {
   background: red;
   margin-top: 5%;
   color: black;
+  border: 2px solid black;
 }
 
 .char-info {
@@ -61,4 +62,5 @@ form > input {
 
 img {
   width: 100%;
+  max-height: 200px;
 }

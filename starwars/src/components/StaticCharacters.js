@@ -40,4 +40,4 @@ export const StaticCharacters = [
     },
   ];
 
-  //Didn't apply for static yet.
+ //Unused

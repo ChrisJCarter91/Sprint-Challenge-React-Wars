@@ -4,12 +4,4 @@ import './index.css';
 import App from './App';
 
 
-// function New() {
-//     return (
-//         <div className="New">
-//             <App />
-//         </div>
-//     );
-// }
-
 ReactDOM.render(<App />, document.getElementById('root'));
